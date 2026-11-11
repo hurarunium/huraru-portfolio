@@ -1,3 +1,10 @@
+.about-visual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
 .about-image {
     flex-shrink: 0;
     width: clamp(18.75rem, -7.328rem + 43.1vw, 25rem);
